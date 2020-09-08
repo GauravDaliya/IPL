@@ -42,20 +42,47 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position: fixed; width: 100%;">
 
-        <ul class="navbar-nav mr-auto">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="ipl13.html">HOME</a>
+              <a class="nav-link" style="color:#FDFEFE ;" >Home </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ipl13.html" style="color:#FDFEFE ;">IPL 13</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false" style="color: #FDFEFE;">
+                Teams
+              </a>
+              <div id="opt" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item"  style="background-color: red; color: black;"   href="rcb.html">ROYAL CHALLENGERS BANGLORE</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"  style="background-color:yellow; color:black"  href="csk.html">CHENNAI SUPER KINGS</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"  style="background-color:blue; color: black;" href="mi.html">MUMBAI INDIANS</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" style="background-color: orange; color: black;" href="srh.html">SUNRISERS HYDERABAD</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"  style="background-color: lightblue; color: black;" href="rr.html">RAJASTHAN ROYALS</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" style="background-color: purple; color: black;" href="kkr.html">KOLKATA KNIGHT RIDERS</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" style="background-color: crimson; color: black;" href="dc.html">DELHI CAPITALS</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" style="background-color: palevioletred; color: black;" href="kxip.html">KINGS XI PUNJAB</a>
             </div>
-    </nav>
-    <h1 style="text-align: center; color:red;margin-top: 5%; ">WINNERS LIST 2008-2019</h1>
-    <div class="container my-3" style="text-align: center; padding-top: 3%;">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="winners.html" style="color:#FDFEFE ;">Winners</a>
+            </li>
+    
+          </ul>
+        </div>
+      </nav> 
+    <div class="container" style="text-align: center; padding-top: 11%;">
         <table>
             <tr>
                 <th>YEAR</th>
